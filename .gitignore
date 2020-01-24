@@ -1,5 +1,7 @@
 
 *.class
+*.iml
+*.java~
 
 .idea/
 target/
