@@ -14,7 +14,7 @@
     </properties>
 
     <modules>
-        <module>chapter_01_maven</module>
+        <module>chapter_05_maven</module>
     </modules>
 
 </project>
