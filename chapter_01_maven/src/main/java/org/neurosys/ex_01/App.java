@@ -1,4 +1,4 @@
-package org.neurosys;
+package org.neurosys.ex_01;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

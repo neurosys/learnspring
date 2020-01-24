@@ -1,4 +1,4 @@
-package org.neurosys;
+package org.neurosys.ex_01;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

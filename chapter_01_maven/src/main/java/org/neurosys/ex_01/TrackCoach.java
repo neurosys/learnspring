@@ -1,4 +1,4 @@
-package org.neurosys;
+package org.neurosys.ex_01;
 
 public class TrackCoach implements ICoach {
 

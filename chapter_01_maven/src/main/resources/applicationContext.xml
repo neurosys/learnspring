@@ -5,12 +5,12 @@
 
     <!--
     <bean id="myCoach"
-          class="org.neurosys.BaseballCoach">
+          class="BaseballCoach">
     </bean>
     -->
 
     <bean id="myCoach"
-          class="org.neurosys.TrackCoach">
+          class="org.neurosys.ex_01.TrackCoach">
     </bean>
 
 </beans>
