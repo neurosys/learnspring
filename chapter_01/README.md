@@ -1,0 +1,1 @@
+This example assumes that we have the Spring jars in a folder on our PC, for the maven implementation look for the other project for chapter_01_maven
