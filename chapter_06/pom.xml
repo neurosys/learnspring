@@ -8,7 +8,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>chapter_05_maven</artifactId>
+    <artifactId>chapter_06_maven</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
 
