@@ -16,6 +16,7 @@
     <modules>
         <module>chapter_05_maven_xml_ic_and_di</module>
         <module>chapter_06_scope_and_lifecycle</module>
+        <module>chapter_07_annotations_ic</module>
     </modules>
 
 </project>
