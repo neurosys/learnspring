@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--
+    <bean id="myCoach"
+          class="BaseballCoach">
+        <constructor-arg ref="myFortune"/>
+    </bean>
+    -->
+
+    <!-- This is a dependency for  the coach-->
+    <bean id="myFortune"
+          class="org.neurosys.ex_04.HappyFortuneService">
+    </bean>
+
+    <!-- This bean will be used for the CricketCoach -->
+    <bean id="myCricketFortune"
+          class="org.neurosys.ex_04.HappyFortuneService">
+    </bean>
+
+    <bean id="myCoach"
+          class="org.neurosys.ex_04.TrackCoach">
+        <!-- constructor injection notice that the ref name is exactly the same as the id of the bean -->
+        <constructor-arg ref="myFortune"/>
+    </bean>
+
+    <bean id="myCricketCoach"
+        class="org.neurosys.ex_04.CricketCoach">
+
+        <!-- setter injection
+        fortuneService is actually the name after "set" for the method to be called
+            in order to set the field so in this case it will be setFortuneService() from CricketCoach
+        myFortune is the id of the bean to be used for that
+        -->
+        <property name="fortuneService" ref="myCricketFortune" />
+
+        <!-- value is used to pass in literal values -->
+        <property name="emailAddress" value="cricketCoach@badteam.com" />
+        <property name="team" value="badteam" />
+    </bean>
+
+</beans>
