@@ -11,12 +11,33 @@
     <properties>
         <spring.version>5.2.3.RELEASE</spring.version>
         <project.version>1.0</project.version>
+        <java.source.version>1.8</java.source.version>
+        <java.target.version>1.8</java.target.version>
+        <maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <modules>
         <module>chapter_05_maven_xml_ic_and_di</module>
         <module>chapter_06_scope_and_lifecycle</module>
         <module>chapter_07_annotations_ic</module>
+        <module>chapter_08_annotations_di</module>
     </modules>
+
+    <build>
+        <plugins>
+
+            <!-- Build using the specified java version -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>${maven.compiler.plugin.version}</version>
+                <configuration>
+                    <source>${java.source.version}</source>
+                    <target>${java.target.version}</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
