@@ -23,6 +23,7 @@
         <module>chapter_07_annotations_ic</module>
         <module>chapter_08_annotations_di</module>
         <module>chapter_09_annotations_scope_and_lifecycle</module>
+        <module>chapter_10_spring_config_via_java</module>
     </modules>
 
     <build>
