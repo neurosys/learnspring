@@ -4,7 +4,7 @@
 
     <parent>
         <groupId>org.neurosys</groupId>
-        <artifactId>learnspring</artifactId>
+        <artifactId>learnspring-core</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
@@ -12,27 +12,5 @@
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
 
-    <dependencies>
-
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>${spring.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>3.8.1</version>
-            <scope>test</scope>
-        </dependency>
-
-    </dependencies>
 
 </project>

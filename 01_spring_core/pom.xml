@@ -1,21 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
+    <parent>
+        <groupId>org.neurosys</groupId>
+        <artifactId>learnspring</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.neurosys</groupId>
-    <artifactId>learnspring</artifactId>
+    <artifactId>learnspring-core</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>learnspring</name>
-
-    <properties>
-        <spring.version>5.2.3.RELEASE</spring.version>
-        <project.version>1.0</project.version>
-        <java.source.version>1.8</java.source.version>
-        <java.target.version>1.8</java.target.version>
-        <maven.compiler.plugin.version>3.1</maven.compiler.plugin.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    </properties>
+    <name>learnspring-core</name>
 
     <modules>
         <module>chapter_05_maven_xml_ic_and_di</module>
@@ -25,21 +22,5 @@
         <module>chapter_09_annotations_scope_and_lifecycle</module>
         <module>chapter_10_spring_config_via_java</module>
     </modules>
-
-    <build>
-        <plugins>
-
-            <!-- Build using the specified java version -->
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>${maven.compiler.plugin.version}</version>
-                <configuration>
-                    <source>${java.source.version}</source>
-                    <target>${java.target.version}</target>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>
