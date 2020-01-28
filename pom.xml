@@ -19,6 +19,7 @@
 
     <modules>
         <module>01_spring_core</module>
+        <module>02_spring_mvc</module>
     </modules>
 
     <build>
