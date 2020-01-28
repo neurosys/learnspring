@@ -1,0 +1,1 @@
+Using @Scope("prototype") or @Scope("singleton") to have one or more instances of the beans

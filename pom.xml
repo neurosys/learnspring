@@ -22,6 +22,7 @@
         <module>chapter_06_scope_and_lifecycle</module>
         <module>chapter_07_annotations_ic</module>
         <module>chapter_08_annotations_di</module>
+        <module>chapter_09_annotations_scope_and_lifecycle</module>
     </modules>
 
     <build>
