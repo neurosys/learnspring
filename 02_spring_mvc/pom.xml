@@ -15,7 +15,7 @@
     <name>learnspring-mvc</name>
 
     <modules>
-        <module>chapter_11_mvc_demo</module>
+        <module>chapter_12_mvc_demo</module>
     </modules>
 
     <dependencies>
