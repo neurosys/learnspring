@@ -9,10 +9,10 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>org.neurosys</groupId>
-    <artifactId>chapter_11_mvc</artifactId>
-    <packaging>jar</packaging>
+    <artifactId>chapter_11_mvc_demo</artifactId>
+    <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>chapter_11_mvc</name>
+    <name>chapter_11_mvc_demo</name>
 
     <dependencies>
     </dependencies>
