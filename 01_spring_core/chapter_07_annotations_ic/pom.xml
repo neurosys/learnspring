@@ -4,7 +4,7 @@
 
     <parent>
         <groupId>org.neurosys</groupId>
-        <artifactId>learnspring</artifactId>
+        <artifactId>learnspring-core</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
