@@ -9,7 +9,7 @@
     <name>learnspring</name>
 
     <properties>
-        <spring.version>5.2.3.RELEASE</spring.version>
+        <spring.version>5.3.19</spring.version>
         <project.version>1.0</project.version>
         <java.source.version>1.8</java.source.version>
         <java.target.version>1.8</java.target.version>
